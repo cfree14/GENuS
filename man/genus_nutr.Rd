@@ -3,7 +3,7 @@
 \docType{data}
 \name{genus_nutr}
 \alias{genus_nutr}
-\title{Total Nutrient Supplies by Country and Year}
+\title{Nutrient supply by country and year (1961-2011)}
 \format{
 A data frame with the following attributes:
 \describe{

@@ -3,7 +3,7 @@
 \docType{data}
 \name{genus_food_2011}
 \alias{genus_food_2011}
-\title{Edible Food by Age and Sex (2011)}
+\title{Edible food supply by country, age, and sex in 2011}
 \format{
 A data frame with the following attributes:
 \describe{

@@ -3,7 +3,7 @@
 \docType{data}
 \name{genus_nutr_fort}
 \alias{genus_nutr_fort}
-\title{Total Nutrient Supply including Fortification (2011)}
+\title{Nutrient supply (incl. fortification) by country in 2011}
 \format{
 A data frame with the following attributes:
 \describe{

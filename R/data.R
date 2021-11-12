@@ -17,7 +17,7 @@
 #' @source Smith, M.R., Micha, R., Golden, C.D., Mozaffarian, D., Myers, S.S. (2016) Global Expanded Nutrient Supply (GENuS) model: a new method for estimating the global dietary supply of nutrients. PloS One 11(1): p.e0146976. https://doi.org/10.1371/journal.pone.0146976
 "genus_fcts"
 
-#' Edible Food by Country and Year
+#' Edible food supply by country and year (1961-2011)
 #'
 #' Edible food supplies for 225 individual food types in grams per person per day by country, separated by year (1961-2011).
 #'
@@ -36,7 +36,7 @@
 #' @source Smith, M.R., Micha, R., Golden, C.D., Mozaffarian, D., Myers, S.S. (2016) Global Expanded Nutrient Supply (GENuS) model: a new method for estimating the global dietary supply of nutrients. PloS One 11(1): p.e0146976. https://doi.org/10.1371/journal.pone.0146976
 "genus_food"
 
-#' Edible Food by Age and Sex (2011)
+#' Edible food supply by country, age, and sex in 2011
 #'
 #' Edible food supplies across 225 individual foods (grams/person/day), separated by age and sex group.
 #'
@@ -60,7 +60,7 @@
 #' @source Smith, M.R., Micha, R., Golden, C.D., Mozaffarian, D., Myers, S.S. (2016) Global Expanded Nutrient Supply (GENuS) model: a new method for estimating the global dietary supply of nutrients. PloS One 11(1): p.e0146976. https://doi.org/10.1371/journal.pone.0146976
 "genus_food_2011"
 
-#' Total Nutrient Supplies by Country and Year
+#' Nutrient supply by country and year (1961-2011)
 #'
 #' Total nutrient supplies by country (175 countries) and year (1961-2011), separated by nutrient (23 nutrients). Nutrients covered are: calories, protein, fat, carbohydrates, vitamin C, vitamin A, folate, calcium, iron, zinc, potassium, dietary fiber, copper, sodium, phosphorus, thiamin, riboflavin, niacin, B6, magnesium, saturated fatty acids, monounsaturated fatty acids, polyunsaturated fatty acids.
 #'
@@ -85,7 +85,7 @@
 #' @source Smith, M.R., Micha, R., Golden, C.D., Mozaffarian, D., Myers, S.S. (2016) Global Expanded Nutrient Supply (GENuS) model: a new method for estimating the global dietary supply of nutrients. PloS One 11(1): p.e0146976. https://doi.org/10.1371/journal.pone.0146976
 "genus_nutr"
 
-#' Nutrient Totals by Age and Sex (2011)
+#' Nutrient supply by country, age, and sex in 2011
 #'
 #' Total supplies of 23 individual nutrients from all foods (without fortification) by country and age-sex group in 2011. Nutrients covered are: calories, protein, fat, carbohydrates, vitamin C, vitamin A, folate, calcium, iron, zinc, potassium, dietary fiber, copper, sodium, phosphorus, thiamin, riboflavin, niacin, B6, magnesium, saturated fatty acids, monounsaturated fatty acids, polyunsaturated fatty acids.
 #'
@@ -112,7 +112,7 @@
 #' @source Smith, M.R., Micha, R., Golden, C.D., Mozaffarian, D., Myers, S.S. (2016) Global Expanded Nutrient Supply (GENuS) model: a new method for estimating the global dietary supply of nutrients. PloS One 11(1): p.e0146976. https://doi.org/10.1371/journal.pone.0146976
 "genus_nutr_2011"
 
-#' Nutrient Supplies by Food and Country (2011)
+#' Nutrient supply by country and food in 2011
 #'
 #' Nutrients supplied by each of 225 foods in most recent year with available data (2011), separated by each of 23 individual nutrients. Nutrients covered are: calories, protein, fat, carbohydrates, vitamin C, vitamin A, folate, calcium, iron, zinc, potassium, dietary fiber, copper, sodium, phosphorus, thiamin, riboflavin, niacin, B6, magnesium, saturated fatty acids, monounsaturated fatty acids, polyunsaturated fatty acids.
 #'
@@ -136,7 +136,7 @@
 #' @source Smith, M.R., Micha, R., Golden, C.D., Mozaffarian, D., Myers, S.S. (2016) Global Expanded Nutrient Supply (GENuS) model: a new method for estimating the global dietary supply of nutrients. PloS One 11(1): p.e0146976. https://doi.org/10.1371/journal.pone.0146976
 "genus_nutr_food_2011"
 
-#' Total Nutrient Supply including Fortification (2011)
+#' Nutrient supply (incl. fortification) by country in 2011
 #'
 #' Total nutrients supplied by the diet in 2011, including those contributed via fortification. Includes data for 175 countries and 23 nutrients: calories, protein, fat, carbohydrates, vitamin C, vitamin A, folate, calcium, iron, zinc, potassium, dietary fiber, copper, sodium, phosphorus, thiamin, riboflavin, niacin, B6, magnesium, saturated fatty acids, monounsaturated fatty acids, polyunsaturated fatty acids.
 #'
@@ -160,7 +160,7 @@
 "genus_nutr_fort"
 
 
-#' Nutrient Totals (incl. Fortification) by Age and Sex (2011)
+#' Nutrient supply (incl. fortification) by country, age, and sex in 2011
 #'
 #' Total nutrients supplied by all foods for each country and age-sex group for most recent year (2011). Nutrients covered are: calories, protein, fat, carbohydrates, vitamin C, vitamin A, folate, calcium, iron, zinc, potassium, dietary fiber, copper, sodium, phosphorus, thiamin, riboflavin, niacin, B6, magnesium, saturated fatty acids, monounsaturated fatty acids, polyunsaturated fatty acids.
 #'
