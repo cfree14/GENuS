@@ -6,6 +6,11 @@ This R packages contains nutrient supplies estimated by the Global Expanded Nutr
 
 The package contains the following datasets:
 
-1. Dataset 1
-2. Dataset 2
-3. Dataset 3
+1. Food composition tables for GENuS: `?genus_fcts`
+2. Edible Food by Country and Year: 
+3. Edible Food by Age and Sex (2011):
+4. Total Nutrient Supplies by Country and Year:
+5. Nutrient Totals by Age and Sex (2011):
+6. Nutrient Supplies by Food and Country (2011):
+7. Total Nutrient Supply including Fortification (2011):
+8. Nutrient Totals (incl. Fortification) by Age and Sex (2011):
