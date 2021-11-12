@@ -32,7 +32,7 @@ The package contains the following datasets:
 7. Nutrient supply (incl. fortification) by country in 2011: `?genus_nutr_fort`
 8. Nutrient supply (incl. fortification) by country, age, and sex in 2011: `?genus_nutr_fort_2011`
 
-The data were accessed from this [Harvard Dataverse repository](https://dataverse.harvard.edu/dataverse/GENuS) and formatted by [Chris Free](https://marine.rutgers.edu/~cfree/). Please contact Chris Free (cfree14@gmail.com) about this repository and the original authors about the data.
+The data were accessed from this [Harvard Dataverse repository](https://dataverse.harvard.edu/dataverse/GENuS) and formatted by [Chris Free](https://marine.rutgers.edu/~cfree/). Please contact Chris Free (cfree14@gmail.com) with questions about this repository and the original authors with questions about the data, model, or paper.
 
 ## Citation
 
