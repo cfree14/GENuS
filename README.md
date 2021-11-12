@@ -1,6 +1,6 @@
 # Global Expanded Nutrient Supply (GENuS) Database
 
-This R packages contains nutrient supplies estimated by the Global Expanded Nutrient Supply (GENuS) model developed by Smith et al. (2016):
+This R packages contains nutrient supplies estimated by the Global Expanded Nutrient Supply (GENuS) model developed by [Smith et al. (2016)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0146976):
 
 * Smith, M.R., Micha, R., Golden, C.D., Mozaffarian, D., Myers, S.S. (2016) Global Expanded Nutrient Supply (GENuS) model: a new method for estimating the global dietary supply of nutrients. _PloS One_ 11(1): e0146976.
 
@@ -17,7 +17,7 @@ The package contains the following datasets:
 7. Nutrient supply (incl. fortification) by country in 2011: `?genus_nutr_fort`
 8. Nutrient supply (incl. fortification) by country, age, and sex (2011): `?genus_nutr_fort_2011`
 
-The data were accessed from this [Harvard Dataverse repository](https://dataverse.harvard.edu/dataverse/GENuS) and formatted by [Chris Free](https://marine.rutgers.edu/~cfree/) (cfree14@gmail.com).
+The data were accessed from this [Harvard Dataverse repository](https://dataverse.harvard.edu/dataverse/GENuS) and formatted by [Chris Free](https://marine.rutgers.edu/~cfree/). Please contact Chris Free (cfree14@gmail.com) about this repository and the original authors about the data.
 
 ## Citation
 
