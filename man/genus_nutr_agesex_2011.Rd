@@ -18,7 +18,6 @@ A data frame with the following attributes:
   \item{nutrient}{Nutrient}
   \item{units_long}{Units, long form}
   \item{units_short}{Units, short form}
-  \item{year}{Year}
   \item{supply_med}{Supply, median}
   \item{supply_lo}{Supply, 2.5th percentile}
   \item{supply_hi}{Supply, 97.5th percentile}
