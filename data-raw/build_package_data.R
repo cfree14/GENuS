@@ -30,22 +30,20 @@ genus_nutr_fort_2011 <- readRDS(indir, file=file.path(indir, "genus_nutrient_sup
 # Format data
 ################################################################################
 
-# Age groups
-
 # Food by country/year
-genus_food <- genus_food %>%
+genus_food_cntry <- genus_food %>%
   rename(iso3=iso3_use, country=country_use)
 
 # Food by country/age/sex in 2011
-genus_food_2011 <- genus_food_2011 %>%
+genus_food_agesex_2011 <- genus_food_2011 %>%
   rename(iso3=iso3_use, country=country_use, supply_med=value_med, supply_lo=value_lo, supply_hi=value_hi)
 
 # Nutrient by country/year
-genus_nutr <- genus_nutr %>%
+genus_nutr_cntry <- genus_nutr %>%
   rename(iso3=iso3_use, country=country_use, supply_med=value_med, supply_lo=value_lo, supply_hi=value_hi)
 
 # Nutrient by country/age/sex in 2011
-genus_nutr_2011 <- genus_nutr_2011 %>%
+genus_nutr_agesex_2011 <- genus_nutr_2011 %>%
   rename(iso3=iso3_use, country=country_use, supply_med=value_med, supply_lo=value_lo, supply_hi=value_hi)
 
 # Nutrient by country/food in 2011
@@ -53,11 +51,11 @@ genus_nutr_food_2011 <- genus_nutr_food_2011 %>%
   rename(iso3=iso3_use, country=country_use, supply_med=value_med, supply_lo=value_lo, supply_hi=value_hi)
 
 # Nutrient by country/year including fortification
-genus_nutr_fort <- genus_nutr_fort %>%
+genus_nutr_fort_cntry_2011 <- genus_nutr_fort %>%
   rename(iso3=iso3_use, country=country_use, supply_med=value_med, supply_lo=value_lo, supply_hi=value_hi)
 
 # Nutrient by country/year including fortification
-genus_nutr_fort_2011 <- genus_nutr_fort_2011 %>%
+genus_nutr_fort_agesex_2011 <- genus_nutr_fort_2011 %>%
   rename(iso3=iso3_use, country=country_use, supply_med=value_med, supply_lo=value_lo, supply_hi=value_hi)
 
 
@@ -65,14 +63,14 @@ genus_nutr_fort_2011 <- genus_nutr_fort_2011 %>%
 ################################################################################
 
 # Export data
-usethis::use_data(genus_food_2011, overwrite = T)
-usethis::use_data(genus_food, overwrite = T)
 usethis::use_data(genus_fcts, overwrite = T)
-usethis::use_data(genus_nutr_2011, overwrite = T)
+usethis::use_data(genus_food_cntry, overwrite = T)
+usethis::use_data(genus_food_agesex_2011, overwrite = T)
+usethis::use_data(genus_nutr_cntry, overwrite = T)
+usethis::use_data(genus_nutr_agesex_2011, overwrite = T)
 usethis::use_data(genus_nutr_food_2011, overwrite = T)
-usethis::use_data(genus_nutr, overwrite = T)
-usethis::use_data(genus_nutr_fort, overwrite = T)
-usethis::use_data(genus_nutr_fort_2011, overwrite = T)
+usethis::use_data(genus_nutr_fort_cntry_2011, overwrite = T)
+usethis::use_data(genus_nutr_fort_agesex_2011, overwrite = T)
 
 
 

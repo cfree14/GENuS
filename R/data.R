@@ -34,7 +34,7 @@
 #'   \item{g_person_day}{Supply (g/person/day)}
 #' }
 #' @source Smith, M.R., Micha, R., Golden, C.D., Mozaffarian, D., Myers, S.S. (2016) Global Expanded Nutrient Supply (GENuS) model: a new method for estimating the global dietary supply of nutrients. PloS One 11(1): p.e0146976. https://doi.org/10.1371/journal.pone.0146976
-"genus_food"
+"genus_food_cntry"
 
 #' Edible food supply by country, age, and sex in 2011
 #'
@@ -58,7 +58,7 @@
 #'   \item{supply_hi}{Supply, 97.5th percentile}
 #' }
 #' @source Smith, M.R., Micha, R., Golden, C.D., Mozaffarian, D., Myers, S.S. (2016) Global Expanded Nutrient Supply (GENuS) model: a new method for estimating the global dietary supply of nutrients. PloS One 11(1): p.e0146976. https://doi.org/10.1371/journal.pone.0146976
-"genus_food_2011"
+"genus_food_agesex_2011"
 
 #' Nutrient supply by country and year (1961-2011)
 #'
@@ -83,7 +83,7 @@
 #'   \item{supply_hi}{Supply, 97.5th percentile}
 #' }
 #' @source Smith, M.R., Micha, R., Golden, C.D., Mozaffarian, D., Myers, S.S. (2016) Global Expanded Nutrient Supply (GENuS) model: a new method for estimating the global dietary supply of nutrients. PloS One 11(1): p.e0146976. https://doi.org/10.1371/journal.pone.0146976
-"genus_nutr"
+"genus_nutr_cntry"
 
 #' Nutrient supply by country, age, and sex in 2011
 #'
@@ -110,7 +110,7 @@
 #'   \item{supply_hi}{Supply, 97.5th percentile}
 #' }
 #' @source Smith, M.R., Micha, R., Golden, C.D., Mozaffarian, D., Myers, S.S. (2016) Global Expanded Nutrient Supply (GENuS) model: a new method for estimating the global dietary supply of nutrients. PloS One 11(1): p.e0146976. https://doi.org/10.1371/journal.pone.0146976
-"genus_nutr_2011"
+"genus_nutr_agesex_2011"
 
 #' Nutrient supply by country and food in 2011
 #'
@@ -157,7 +157,7 @@
 #'   \item{supply_hi}{Supply, 97.5th percentile}
 #' }
 #' @source Smith, M.R., Micha, R., Golden, C.D., Mozaffarian, D., Myers, S.S. (2016) Global Expanded Nutrient Supply (GENuS) model: a new method for estimating the global dietary supply of nutrients. PloS One 11(1): p.e0146976. https://doi.org/10.1371/journal.pone.0146976
-"genus_nutr_fort"
+"genus_nutr_fort_cntry_2011"
 
 
 #' Nutrient supply (incl. fortification) by country, age, and sex in 2011
@@ -185,4 +185,4 @@
 #'   \item{supply_hi}{Supply, 97.5th percentile}
 #' }
 #' @source Smith, M.R., Micha, R., Golden, C.D., Mozaffarian, D., Myers, S.S. (2016) Global Expanded Nutrient Supply (GENuS) model: a new method for estimating the global dietary supply of nutrients. PloS One 11(1): p.e0146976. https://doi.org/10.1371/journal.pone.0146976
-"genus_nutr_fort_2011"
+"genus_nutr_fort_agesex_2011"
